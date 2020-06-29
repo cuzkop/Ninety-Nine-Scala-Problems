@@ -1,1 +1,0 @@
-["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.13.0":{"hashes":[["/Users/kazuki_takahashi/Desktop/Ninety-Nine-Scala-Problems/src/main/scala/01-10/P01.scala","29042247c47766f468bd3358e072bba285fd8029"]],"lastModifiedTimes":[]}}]

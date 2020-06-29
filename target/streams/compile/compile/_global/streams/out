@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/kazuki_takahashi/Desktop/Ninety-Nine-Scala-Problems/src/main/scala/01-10/P01.scala:5:29: not found: value last[0m
-[0m[[0m[31merror[0m] [0m[0m            case x :: xs => last(xs)[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
