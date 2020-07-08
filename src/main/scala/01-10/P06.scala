@@ -1,4 +1,6 @@
-object P05 extends App {
+import p05
+
+object p06 extends App {
     def reverse[A](list: List[A]): List[A] = {
         val reverseList: List[A] = Nil
         list.foldLeft(reverseList){(acc, x) => x :: acc}

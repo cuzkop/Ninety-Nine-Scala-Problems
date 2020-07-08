@@ -1,4 +1,4 @@
-object p01 extends App {
+object P01 extends App {
     def last[A](list: List[A]): A = {
         list match {
             case x :: Nil => x

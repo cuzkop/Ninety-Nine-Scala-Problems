@@ -1,4 +1,4 @@
-object p02 extends App {
+object P02 extends App {
     def penultimate[A](list: List[A]): A = {
         list match {
             case x :: y :: Nil => x

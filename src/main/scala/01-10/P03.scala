@@ -1,4 +1,4 @@
-object p03 extends App {
+object P03 extends App {
     def nth[A](n: Int, list: List[A]): A = {
         list match {
             case x :: _ if n == 0 => x

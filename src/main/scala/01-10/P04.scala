@@ -1,4 +1,4 @@
-object p04 extends App {
+object P04 extends App {
     def length[A](list: List[A]): Int = {
         def loop(l: List[A], i: Int): Int = {
             l match {
