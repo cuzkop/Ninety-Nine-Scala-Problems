@@ -1,12 +1,10 @@
-object p02 {
-    def main(args: Array[String]): Unit = {
-        def penultimate[A](list: List[A]): A = {
-            list match {
-                case x :: y :: Nil => x
-                case x :: y :: xs => penultimate(y :: xs)
-                case _ => throw new IllegalArgumentException("Invalid val")
-            }
+object p02 extends App {
+    def penultimate[A](list: List[A]): A = {
+        list match {
+            case x :: y :: Nil => x
+            case x :: y :: xs => penultimate(y :: xs)
+            case _ => throw new IllegalArgumentException("Invalid val")
         }
-        println(penultimate(List(1,2,3,4,5)))
     }
+    println(penultimate(List(1,2,3,4,5)))
 }
