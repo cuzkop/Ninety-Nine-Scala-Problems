@@ -1,10 +1,9 @@
-import p05
+import P05.reverse
 
-object p06 extends App {
-    def reverse[A](list: List[A]): List[A] = {
-        val reverseList: List[A] = Nil
-        list.foldLeft(reverseList){(acc, x) => x :: acc}
+object P06 extends App {
+    def isPalindrome[A](list: List[A]): Boolean = {
+        reverse(list) == list
     }
-    println(reverse(List(1,2,3,4,5)))
-    println(reverse(List("a", "b", "c", "d", "e", "f", "g", "h", "i", "j")))
+    println(isPalindrome(List(1,2,3,2,1)))
+    println(isPalindrome(List("a", "b", "c", "d", "e", "f", "g", "h", "i", "j")))
 }
